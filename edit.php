@@ -12,7 +12,7 @@
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
-    
+
     if(isset($_POST['submit'])) {
         $id = $_POST['id'];
         $kode = $_POST['kode'];
@@ -50,7 +50,7 @@
     $rowjenis = $conn->prepare($sqljenis);
     $rowjenis->execute();
 
-  
+
 ?>
 
 
@@ -97,7 +97,7 @@
 
 
     </select>
-    
+
 
     <br>
     <button type="submit" name="submit">Save</button>

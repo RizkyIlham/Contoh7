@@ -19,10 +19,10 @@
 	<form method="post" action="index.php">
 		<label for="kode">Kode:</label>
 		<input type="text" id="kode" name="kode"><br><br>
-		
+
 		<label for="nama">Nama:</label>
 		<input type="text" id="nama" name="nama"><br><br>
-		
+
 		<label for="jk">Jenis Kelamin:</label>
         <br>
         <label>Laki-Laki</label>
@@ -53,7 +53,7 @@
         </select>
 
         <br><br>
-		
+
 		<input type="submit" value="Simpan" name="submit">
 	</form>
 </body>
